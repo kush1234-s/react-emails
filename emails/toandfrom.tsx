@@ -51,21 +51,16 @@ export const VercelInviteUserEmail = ({
       <Tailwind>
         <Section className="my-[16px] ">
           <Container
-            style={{
-              display: "flex",
-              width: "100%",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
+           className="mx-auto"
           >
             <Img
               alt="Grinder Collection"
-              className="w-[225px] h-[61px] "
+              className="w-[225px] h-[61px] mx-auto"
               src={`${baseUrl}/static/T&F.png`}
             />
           </Container>
           <Hr className="border-t-2 border-gray-300" />
-          <Container className="rounded-[11px] border-[2px] border-[rgba(30,100,116,0.18)] bg-[#1E6474] shadow-[0px_4px_4px_0px_rgba(34,100,115,0.03)] mt-5 py-5 ">
+          <Container className=" w-00 rounded-[11px] border-[2px] border-[rgba(30,100,116,0.18)] bg-[#1E6474] shadow-[0px_4px_4px_0px_rgba(34,100,115,0.03)] mt-5 py-5 ">
             <Row>
               <Text
                 className="text-center text-3xl font-medium leading-normal text-[#FFF] "
@@ -87,7 +82,7 @@ export const VercelInviteUserEmail = ({
           className="mt-[29px] "
           style={{
             display: "flex",
-            alignItems: "center",
+            width:'100%',
             justifyContent: "center",
           }}
         >
@@ -343,7 +338,7 @@ export const VercelInviteUserEmail = ({
           style={{ fontWeight: 400, color: "#23262F" }}
         >
           Need more help finding the perfect gift? Start a new session with
-          <strong style={{ color: "#1E6474" }}> Charlotte</strong>
+          <strong style={{ color: "#1E6474" }}> Charlotte</strong> 
         </Text>
       </Tailwind>
     </Html>
